@@ -1,0 +1,17 @@
+
+
+.navbar
+{
+    margin-bottom: 0;
+    border-bottom-width: 0;
+    -webkit-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+    color: #b51fc3;
+    background: #000000;
+}
+
+.h1
+{
+    color: #000000;
+}
+

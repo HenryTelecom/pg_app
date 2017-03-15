@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" class="gray_background">
+    <head>
+        <title>Login UZENGO Dashboard</title>
+        <!-- Document css -->
+        <link href="../style/css/register/docs.css" rel="stylesheet">
+        <!-- Customized CSS -->
+        <link href="../style/css/register/custom.css" rel="stylesheet">
+        <link href="../style/css/register/styles.css" rel="stylesheet">
+        <link href="../style/css/register/app.css" rel="stylesheet">
+    </head>
+    <body class="bs-docs-home">
+        <!-- Main nav header -->
+        <div class="container" style="margin-top: -60px;">
+            <div class="row">
+                <p><a class="btn btn-primary" href="../index.html"><i class="fa fa-home"></i> Uzengo </a></p>
+            </div>
+            <section>
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
+                        <div class="col-md-12 centered">
+                            <div class="callout-copy">
+                                <h1>Bienvenue</h1>
+                                <p>Connectez-vous </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 clearfix servicebox">
+                            <br>
+                            <form role="form" action="" class="auth" method="post" id="login_form">
+                                <input type='hidden' name='csrfmiddlewaretoken' value='QfITeGoYKHs8I9HgpPNPcxGsnrK9BH0f' />
+                                <div class="form-group">
+                                    <label for="id_email">E-mail:</label>
+                                    <input id="id_email" name="email" type="email" />
+                                </div>
+                                <div class="form-group">
+                                    <label for="id_password">Mot de passe:</label>
+                                    <input id="id_password" name="password" type="password" />
+                                </div>
+                                <div class="remember-forgot">
+                                    <label class="remember">
+                                        <input type="checkbox" value="1" name="remember_me" checked="checked">
+                                        <span>Se souvenir de mon identifiant</span>
+                                    </label>
+                                    <span class="separator">·</span>
+                                    <a class="forgot" href="">Mot de passe oublié?</a>
+                                </div>
+                                <br>
+                                <input type="hidden" name="next" value="" />
+                                <a class="btn btn-primary pull-right" href="../dashboard/dashboard.html"><i class="fa fa-home"></i> Se connecter </a>
+                                <!--<button type="submit" class="submit btn btn-primary pull-right">
+                                    Se connecter
+                                </button>-->
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="row">
+            <div class="col-md-12 clearfix centered">
+                <hr class="half-rule-thin">
+                <strong><p>Nouveau sur Uzengo? <a href="../register/index.html" class="important"> Inscrivez-vous</a></p></strong>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer
+==================================================
+-->
+<footer class="bs-docs-footer" role="contentinfo">
+    <div class="container">
+        <ul class="bs-docs-footer-links muted">
+            <li class="right">&copy; Uzengo 2016.</li>
+            <li>&middot;</li>
+            <li>
+                <a href="../index.html" title="Accueil">Accueil</a>
+            </li>
+            <li>&middot;</li>
+            <li>
+                <a href="" title="Apropo">À propos</a>
+            </li>
+            <li>&middot;</li>
+            <li>
+                <a href="" title="Contact">Nous contacter</a>
+            </li>
+            <li>&middot;</li>
+            <li>
+                <a href="" title="Privacy">Informations légales</a>
+            </li>
+            <li>&middot;</li>
+        </ul>
+    </div>
+</footer>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<!-- Localized -->
